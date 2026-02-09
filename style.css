@@ -1009,3 +1009,12 @@ footer {
  text-align: right;
   color: var(--text-light);
 }
+.greater {
+ display: flex;
+ justify-content:center;
+ padding:20px;
+ border-radius: 12px;
+ radius: 12px;
+ object-fit: cover;
+ 
+}
