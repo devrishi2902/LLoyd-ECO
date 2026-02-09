@@ -1009,12 +1009,26 @@ footer {
  text-align: right;
   color: var(--text-light);
 }
+
+
 .greater {
- display: flex;
- justify-content:center;
- padding:20px;
- border-radius: 12px;
- radius: 12px;
- object-fit: cover;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.greater img,
+.greater video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .greater {
+    padding: 12px;
+  }
 }
